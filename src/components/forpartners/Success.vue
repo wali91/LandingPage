@@ -61,7 +61,7 @@
         </div>
       </div>
       <div class="col-4">
-        <img class="mt-5" src="@/assets/public/bank.svg" height="400">
+        <img class="mt-5" src="@/assets/public/kemenkesundraw.svg" height="400">
       </div>
     </div>
   </div>
