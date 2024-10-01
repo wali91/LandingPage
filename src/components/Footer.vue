@@ -16,7 +16,7 @@
       <p class="textmargin link" ><a class="textmargin" aria-current="page" @click="toHome" >Home</a></p>
       <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toSolutionPage">Solutions</a></p>
       <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toPartnersPage">Partners</a></p>
-      <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toPartnersPage">Partners</a></p>
+      <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toFAQPage">FAQ</a></p>
       <p class="textmargin">Platform</p>
     </div>
     <div class="col-2 text-left">
@@ -56,6 +56,9 @@ export default {
     },
     toBlogPage() {
       this.$router.push(`/blogpage`);
+    },
+    toFAQPage() {
+      this.$router.push(`/faq`);
     }
   }
 };

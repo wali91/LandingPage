@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     toFormpage() {
-      this.$router.push(`${this.language}/formspage`);
+      this.$router.push(`/formspage`);
     }
   },
   created() {

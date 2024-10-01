@@ -191,5 +191,13 @@
         "FillPhone": "Isi nomor telepon anda",
         "FillSubject": "Isi judul pertanyaan anda",
         "FillMessage": "Isi pesan yang ingin anda tanyakan"
+    },
+    "FAQ": {
+        "QuestionOne": "Bagaimana cara mendaftar bisnis di FBBM?",
+        "BodyOne": "Proses mendaftarkan bisnismu di FBBM bisa mengakses link berikut ini https://www.facebook.com/business/help/1710077379203657?id=180505742745347",
+        "QuestionTwo": "Cara mendapatkan Blue Tick (Official Business Account)",
+        "BodyTwo": "Cara mendapatkan Blue Tick pada WhatsApp Business mu siapkan artikel informasi yang relevan dengan bisnismu, kemudian hubungi PIC Bisnis Damcorp-mu. Kami akan membantu proses pengajuan verifikasi blue tick akun bisnismu tanpa ada biaya tambahan",
+        "QuestionThree": "Apa keuntungan yang didapatkan untuk mendaftar di WABIZ?",
+        "BodyThree": "Ketika bisnis kamu mendaftar dan bergabung bersama WABIZ, kamu akan mendapatkan Kepercayaan dan Kredibilitas yang berupa tanda blue tick yang membuat konsumen mempercayai dan berinteraksi dengan akun yang terjamin keamanannya dengan adanya verifikasi resmi, Fitur yang digunakan dalam mengirim pesan kepada konsumen serta menambah pengalaman pelanggan yang lebih baik. Dan Pengiriman Pesan dengan skala besar dengan akses dashboard yang lengkap"
     }
 }

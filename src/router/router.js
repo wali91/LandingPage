@@ -5,6 +5,7 @@ import SolutionPage from '@/components/SolutionPage.vue'
 import PartnersPage from '@/components/PartnersPage.vue'
 import BlogPage from '@/components/BlogPage.vue'
 import formspage from '@/components/formspage.vue'
+import FAQ from '@/components/FAQ.vue'
 
 
 const routes = [
@@ -12,8 +13,8 @@ const routes = [
   { path: '/solutionpage', name: "SolutionPage", component: SolutionPage },
   { path: '/partnerspage', name: "PartnersPage", component: PartnersPage},
   { path: '/blogpage', name: "BlogPage", component: BlogPage},
-  { path: '/formspage', name: "formspage", component: formspage }
-
+  { path: '/formspage', name: "formspage", component: formspage },
+  { path: '/faq', name:"faq", component: FAQ}
 
 ]
 

@@ -25,7 +25,7 @@
           </a>
           <ul class="dropdown-menu" >
             <li><a class="dropdown-item" style="color: #009C77;" @click="toBlogPage">Blog</a></li>
-            <li><a class="dropdown-item" style="color: #009C77;" href="#">FAQ</a></li>
+            <li><a class="dropdown-item" style="color: #009C77;" @click="toFAQPage">FAQ</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -66,6 +66,9 @@ export default {
     },
     toBlogPage() {
       this.$router.push(`/blogpage`);
+    },
+    toFAQPage() {
+      this.$router.push('/faq')
     }
   }
 }
