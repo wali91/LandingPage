@@ -1,8 +1,8 @@
   <template>
   <nav class="navbar navbar-expand-lg sticky-top border py-3">
-    <div class="container">
+    <div class="container mb-2">
       <a class="brand-image" href="#">
-        <img src="@/assets/Wabiz.jpg" alt="Bootstrap" width="180" height="52">
+        <img src="wabizlogo.png" alt="Bootstrap" width="120" height="52">
       </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
