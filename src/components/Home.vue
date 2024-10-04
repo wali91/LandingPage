@@ -41,6 +41,18 @@ export default {
     PhoneChange,
     Clients,
     Footer
+  },
+  methods:{
+    scrolltotop() {
+      window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+    }
+  },
+  mounted() {
+    console.log('partner')
+    this.scrolltotop()
   }
 };
 </script>

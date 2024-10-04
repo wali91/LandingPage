@@ -18,10 +18,19 @@ export default {
     Footer,
     formtalk
 
+  },methods:{
+    scrolltotop() {
+      window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+    }
   },
   mounted() {
     console.log('partner')
+    this.scrolltotop()
   }
+
 }
 /* eslint-enable vue/multi-word-component-names */
 </script>

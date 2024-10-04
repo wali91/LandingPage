@@ -25,7 +25,20 @@ export default {
   },
   created() {
     this.language=localStorage.getItem('language')
+  },
+  methods:{
+    scrolltotop() {
+      window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+    }
+  },
+  mounted() {
+    console.log('partner')
+    this.scrolltotop()
   }
+
   
 };
 </script>
