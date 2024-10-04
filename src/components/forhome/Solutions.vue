@@ -52,7 +52,7 @@
         <h4 style="color: #6e7982;">{{$t('home_page.Solutions.Presence.Quote')}}</h4>
         <div class="buttons pt-4">
           <a class="btn expert" @click="toFormpage" role="button">{{$t('home_page.Solutions.Presence.Expert')}}</a>
-          <a class="btn register ms-3" href="#" role="button">{{$t('home_page.Solutions.Presence.Register')}}</a>
+          <a class="btn register ms-3" href="https://dev.wabiz.id/register/9459e36b873845d484cee7b87bc5e4ca:cc0b5b800dc9c50eebe855dac455ead631e582e630793f55cfb6e17f0ab00e5e3bcc0a61b6a0fe7777b4bf38f0c0ad4aee83ef3dd4e1e59bf154c19d72700cda0f76da5d69dae7d7e0be6d442fe08c700117bca0a86c877845982d91913c4d30" role="button">{{$t('home_page.Solutions.Presence.Register')}}</a>
         </div>
 
       </div>
