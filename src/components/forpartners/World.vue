@@ -8,7 +8,7 @@
           {{ $t('partner_page.World.Paragraph') }}
         </p>
         <div class="buttons pt-4">
-          <a class="btn" href="#" role="button">{{ $t('partner_page.World.Register') }}</a>
+          <a class="btn" href="https://dev.wabiz.id/register/9459e36b873845d484cee7b87bc5e4ca:cc0b5b800dc9c50eebe855dac455ead631e582e630793f55cfb6e17f0ab00e5e3bcc0a61b6a0fe7777b4bf38f0c0ad4aee83ef3dd4e1e59bf154c19d72700cda0f76da5d69dae7d7e0be6d442fe08c700117bca0a86c877845982d91913c4d30"  role="button">{{ $t('partner_page.World.Register') }}</a>
           <a class="btn ms-3" @click="toFormpage" role="button">{{ $t('partner_page.World.Talk') }}</a>
         </div>
       </div>
