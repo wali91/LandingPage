@@ -21,9 +21,17 @@ export default {
     blog,
     why
 
+  },methods:{
+    scrolltotop() {
+      window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+    }
   },
   mounted() {
     console.log('partner')
+    this.scrolltotop()
   }
 }
 /* eslint-enable vue/multi-word-component-names */
