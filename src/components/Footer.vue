@@ -13,22 +13,23 @@
     </div>
     <div class="col-2  text-left">
       <h4 style="font-weight:600">Sitemap</h4>
-      <p class="textmargin">Home</p>
-      <p class="textmargin">Solutions</p>
-      <p class="textmargin">Partners</p>
-      <p class="textmargin">Resources</p>
+      <p class="textmargin link" ><a class="textmargin" aria-current="page" @click="toHome" >Home</a></p>
+      <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toSolutionPage">Solutions</a></p>
+      <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toPartnersPage">Partners</a></p>
+      <p class="textmargin link"><a class="textmargin" aria-current="page" @click="toFAQPage">FAQ</a></p>
       <p class="textmargin">Platform</p>
     </div>
     <div class="col-2 text-left">
       <h4 style="font-weight:600">Our Products</h4>
       <p class="textmargin">Whatsapp Business</p>
     </div>
-    <div class="col-2 text-left">
+    <div class="col-3 text-left">
       <h4 style="font-weight:600">Follow Us</h4>
-      <p class="textmargin">Whatsapp = Wabiz</p>
-      <p class="textmargin">Instagram = Wabiz</p>
-      <p class="textmargin">Facebook = Wabiz</p>
-      <p class="textmargin">Linkedin= Wabiz</p>
+      <p class="textmargin">WhatsApp: +62 811-1950-9333</p>
+<p class="textmargin">Instagram: <a class="custom-link" href="https://www.instagram.com/damcorpdigital/" target="_blank">@damcorpdigital</a></p>
+<p class="textmargin">Facebook: <a class="custom-link" href="https://www.facebook.com/damcorp.id/" target="_blank">Damcorp.id</a></p>
+<p class="textmargin">LinkedIn: <a class="custom-link" href="https://www.linkedin.com/company/damcorp-id/mycompany/" target="_blank">Damcorp.id</a></p>
+
     </div>
     </div>
   </div>
@@ -42,7 +43,24 @@
 <script>
 export default {
     /* eslint-disable vue/multi-word-component-names */
-  name: 'Footer'
+  name: 'Footer',
+  methods: {
+   toHome() {
+      this.$router.push(`/`);
+    },
+    toSolutionPage() {
+      this.$router.push(`/solutionpage`);
+    },
+    toPartnersPage() {
+      this.$router.push(`/partnerspage`);
+    },
+    toBlogPage() {
+      this.$router.push(`/blogpage`);
+    },
+    toFAQPage() {
+      this.$router.push(`/faq`);
+    }
+  }
 };
 </script>
 
@@ -68,5 +86,21 @@ export default {
 .textmargin {
   padding-bottom: 0;
   margin-bottom: 3%;
+  color: white; /* Set your desired color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer;
 }
+.link:hover {
+  text-decoration: underline; /* Underline only on hover */
+
+}
+.custom-link {
+  color: white; /* Set your desired link color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* Underline only on hover */
+}
+
 </style>

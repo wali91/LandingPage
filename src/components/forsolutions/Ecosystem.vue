@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     toFormpage() {
-      this.$router.push(`/${this.language}/formspage`);
+      this.$router.push(`/formspage`);
     }
   },
   created() {
@@ -89,7 +89,7 @@ export default {
   background-color:#009C77;
   border:1px solid #007258;
   color:white;
-  width:30%;
+  width:33%;
   border-radius: 60px;
 }
 img {

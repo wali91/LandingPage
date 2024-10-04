@@ -50,18 +50,18 @@
           {{ $t('partner_page.Success.Kemenkes') }}</p>
         <div class="row justify-content-center">
           <div class="col-3">
-            <img src="@/assets/public/conversion.gif" height="100">
+            <img src="@/assets/public/redforward.gif" height="100">
             <p><span style="color:#009C77;">{{ $t('partner_page.Success.KemenkesNumberOne') }}</span> {{ $t('partner_page.Success.KemenkesStatsOne') }}</p>
           </div>
           <div class="col-3">
-            <img src="@/assets/public/interest.gif" height="100">
+            <img src="@/assets/public/medworker.gif" height="100">
             <p><span style="color:#009C77;">{{ $t('partner_page.Success.KemenkesNumberTwo') }}</span> {{ $t('partner_page.Success.KemenkesStatsTwo') }}</p>
           </div>
         
         </div>
       </div>
       <div class="col-4">
-        <img class="mt-5" src="@/assets/public/bank.svg" height="400">
+        <img class="mt-5" src="@/assets/public/kemenkesundraw.svg" height="400">
       </div>
     </div>
   </div>
@@ -77,17 +77,17 @@
     </div>
     <div class="row">
       <div class="col-4">
-        <img class="mt-5" src="@/assets/public/bank.svg" height="400">
+        <img class="mt-5" src="@/assets/public/BAFundraw.svg" height="400">
       </div>
       <div class="col-8 text-left mt-5">
         <p>{{ $t('partner_page.Success.BAF') }}</p>
         <div class="row justify-content-center">
           <div class="col-3">
-            <img src="@/assets/public/conversion.gif" height="100">
+            <img src="@/assets/public/readrates.gif" height="100">
             <p><span style="color:#009C77;">{{ $t('partner_page.Success.BAFNumberOne') }}</span> {{ $t('partner_page.Success.BAFStatsOne') }}</p>
           </div>
           <div class="col-3">
-            <img src="@/assets/public/interest.gif" height="100">
+            <img src="@/assets/public/conversionrate.gif" height="100">
             <p><span style="color:#009C77;">{{ $t('partner_page.Success.BAFNumberTwo') }}</span> {{ $t('partner_page.Success.BAFStatsTwo') }}</p>
           </div>
         </div>

@@ -1,8 +1,8 @@
   <template>
   <nav class="navbar navbar-expand-lg sticky-top border py-3">
-    <div class="container">
+    <div class="container mb-2">
       <a class="brand-image" href="#">
-        <img src="@/assets/Wabiz.jpg" alt="Bootstrap" width="180" height="52">
+        <img src="wabizlogo.png" alt="Bootstrap" width="120" height="52">
       </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
           </a>
           <ul class="dropdown-menu" >
             <li><a class="dropdown-item" style="color: #009C77;" @click="toBlogPage">Blog</a></li>
-            <li><a class="dropdown-item" style="color: #009C77;" href="#">FAQ</a></li>
+            <li><a class="dropdown-item" style="color: #009C77;" @click="toFAQPage">FAQ</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -66,6 +66,9 @@ export default {
     },
     toBlogPage() {
       this.$router.push(`/blogpage`);
+    },
+    toFAQPage() {
+      this.$router.push('/faq')
     }
   }
 }

@@ -191,5 +191,13 @@
         "FillPhone": "Fill in your phone number",
         "FillSubject": "Fill in your question title",
         "FillMessage": "Fill in your concerns"
+    },
+    "FAQ": {
+        "QuestionOne": "How to Register a Business on FBBM?",
+        "BodyOne": "The process of registering your business on FBBM can be accessed through the following link: https://www.facebook.com/business/help/1710077379203657?id=180505742745347",
+        "QuestionTwo": "How to Obtain a Blue Tick (Official Business Account)",
+        "BodyTwo": "To obtain a Blue Tick on your WhatsApp Business, prepare relevant informational articles about your business, then contact your Damcorp Business PIC. We will assist you in the process of applying for verification of your business account without any additional fees.",
+        "QuestionThree": "What Are the Benefits of Registering with WABIZ?",
+        "BodyThree": "When your business registers and joins WABIZ, you will gain Trust and Credibility in the form of a blue tick, which assures consumers and allows them to interact with a verified and secure account. Additionally, you will have features for sending messages to consumers and enhancing customer experience. You will also have the ability to send messages on a large scale with access to a comprehensive dashboard."
     }
 }
